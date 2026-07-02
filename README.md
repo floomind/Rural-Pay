@@ -27,21 +27,19 @@ _Plataforma web que identifica, archiva y concilia las cobranzas de obligaciones
 
 <div align="center">
 
-<img src="01_landing.png" width="600" alt="Landing pública de Rural Pay"/>
+<img src="01_landing.png" width="300" alt="Landing pública"/>&nbsp;&nbsp;
+<img src="02_scoring.png" width="300" alt="Scoring de cumplimiento"/>&nbsp;&nbsp;
+<img src="03_panel.png" width="300" alt="Panel / Conciliación"/>
 
-_Landing pública: obligaciones del sector rural, cómo funciona y actividad en vivo._
-
-<br/>
-
-<img src="02_scoring.png" width="600" alt="Scoring de cumplimiento"/>
-
-_Scoring de cumplimiento: el buen historial de pago desbloquea mejores planes y beneficios._
+_Landing pública · Scoring de cumplimiento · Panel / Conciliación_
 
 <br/>
 
-<img src="03_panel.png" width="600" alt="Panel / Conciliación"/>
+<img src="04_obligaciones.png" width="300" alt="Tipos de obligaciones"/>&nbsp;&nbsp;
+<img src="05_trazabilidad.png" width="300" alt="Trazabilidad"/>&nbsp;&nbsp;
+<img src="06_dashboard.png" width="300" alt="Dashboard"/>
 
-_Panel interno: gestión de obligaciones y conciliación de pagos._
+_Tipos de obligaciones · Trazabilidad del pago · Dashboard de recaudación_
 
 </div>
 
@@ -91,11 +89,8 @@ notepad .env
 # 4) Aplicar migraciones
 .\scripts\migrate.ps1
 
-# 5) Datos de ejemplo (opcional pero recomendado)
-.\scripts\seed.ps1
-
-# 6) Arrancar la app
-.\scripts\run.ps1
+# 5) Arrancar la app (abre el navegador solo)
+.\scripts\start.ps1
 ```
 
 Abrir en el navegador:
@@ -132,7 +127,7 @@ app/
   integrations/       Gateways (MP + MODO)
   web/                Vistas HTML, templates, estáticos
 alembic/              Migraciones
-scripts/              setup / run / migrate / test / seed
+scripts/              setup / run / start / migrate / test
 tests/                pytest
 docs/                 Documentación
 ```
@@ -141,10 +136,10 @@ docs/                 Documentación
 
 ```powershell
 .\scripts\setup.ps1                  # Setup inicial
+.\scripts\start.ps1                  # Arrancar y abrir el navegador
 .\scripts\run.ps1                    # Arrancar dev server
 .\scripts\migrate.ps1                # Aplicar migraciones (upgrade head)
 .\scripts\migrate.ps1 -New "msg"     # Crear migración nueva (autogenerate)
-.\scripts\seed.ps1                   # Cargar datos de ejemplo
 .\scripts\test.ps1                   # Correr tests
 ```
 
