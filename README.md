@@ -25,13 +25,23 @@ _Plataforma web que identifica, archiva y concilia las cobranzas de obligaciones
 
 ## 📸 Capturas
 
-<!-- TODO: subir capturas a docs/screenshots/ y reemplazar los enlaces. -->
-
 <div align="center">
 
-| Landing pública | Scoring de cumplimiento | Panel / Conciliación |
-|:---:|:---:|:---:|
-| _(captura aquí)_ | _(captura aquí)_ | _(captura aquí)_ |
+<img src="01_landing.png" width="600" alt="Landing pública de Rural Pay"/>
+
+_Landing pública: obligaciones del sector rural, cómo funciona y actividad en vivo._
+
+<br/>
+
+<img src="02_scoring.png" width="600" alt="Scoring de cumplimiento"/>
+
+_Scoring de cumplimiento: el buen historial de pago desbloquea mejores planes y beneficios._
+
+<br/>
+
+<img src="03_panel.png" width="600" alt="Panel / Conciliación"/>
+
+_Panel interno: gestión de obligaciones y conciliación de pagos._
 
 </div>
 
@@ -191,5 +201,4 @@ docs/                 Documentación
 
 ## 📄 Licencia
 
-Propietario — Rural Pay (Agustín Formica)
-
+Propietario — Rural Pay.
