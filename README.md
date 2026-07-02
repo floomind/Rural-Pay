@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💳 Rural Pay
+# 💳 Rural Pay (Rural-Pay)
 
 ### Trazabilidad y conciliación de cobranzas de aportes rurales (multi-tenant)
 
@@ -196,4 +196,4 @@ docs/                 Documentación
 
 ## 📄 Licencia
 
-Propietario — Rural Pay.
+Propietario — Rural Pay (Agustín Formica).
